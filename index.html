@@ -4,121 +4,238 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <style>
-         </style>
-<link rel="stylesheet" type="text/css" href="CSS/PORTFOLIOAPA.css" />
+    <link rel="stylesheet" href="CSS/PORTFOLIOAPA.css">
 </head>
 <body>
-
-   
-      <!-- Navigation Bar -->
-      <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#artwork">Artwork</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
     <header>
-    <div class="hero-box">
-        <h1>Hello, My name is Zuhri</h1>
-        <p>Welcome to my website!</p>
-    </div>
-</header>
-
-
-    <!-- Hero Section -->
-    <header class="hero">
-        <p><h1></h1> I'm [Your Name], a passionate creative individual specializing in visual storytelling and design.</h1></p>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skill">Skill</a></li>
+                <li><a href="#artwork">Artwork</a></li>
+                <li><a href="#Footer">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
+    <main>
+      <section id="home" class="hero">
+        <img src="IMG/IMG_8094.JPG" alt="Your Picture" id="hero-circle-image">
+        <h1 id="hero-title">Hello, I'm Zuhri</h1>
+        <p id="hero-subtitle">I design modern and creative content for social media.</p>
+      </section>
 
-
-     <!-- Skills Section -->
-    <section id="skills">
-        <h2>My Skills</h2>
-        <div class="skills">
-            <div class="skill-box">
-                <h3>Graphic Design</h3>
-                <p>Creating stunning visuals and designs.</p>
-                <div class="skill-bar">
-                    <div class="bar" style="width: 90%;"></div> <!-- 90% skill level -->
-                </div>
-            </div>
-            <div class="skill-box">
-                <h3>Motion Graphics</h3>
-                <p>Animating and bringing ideas to life.</p>
-                <div class="skill-bar">
-                    <div class="bar" style="width: 75%;"></div> <!-- 75% skill level -->
-                </div>
-            </div>
-            <div class="skill-box">
-                <h3>Photography</h3>
-                <p>Capturing moments with precision.</p>
-                <div class="skill-bar">
-                    <div class="bar" style="width: 80%;"></div> <!-- 80% skill level -->
-                </div>
-            </div>
-            <div class="skill-box">
-                <h3>Videography</h3>
-                <p>Crafting compelling video narratives.</p>
-                <div class="skill-bar">
-                    <div class="bar" style="width: 70%;"></div> <!-- 70% skill level -->
-                </div>
-            </div>
-        </div>
-    </section>
-    
-
-    <!-- Artwork Section -->
-    <section id="artwork">
-        <h2>My Artwork</h2>
-        <div class="artwork-category">
-            <h3>Motion Graphics</h3>
-            <ul>
-                <li>Explainer Video 1</li>
-                <li>Title Animation</li>
-                <li>Promo Video</li>
-            </ul>
-        </div>
-        <div class="artwork-category">
-            <h3>Photography</h3>
-            <ul>
-                <li>Portrait Series</li>
-                <li>Landscape Collection</li>
-                <li>Event Coverage</li>
-            </ul>
-        </div>
-        <div class="artwork-category">
-            <h3>Videography</h3>
-            <ul>
-                <li>Short Film</li>
-                <li>Documentary</li>
-                <li>Event Highlight Reel</li>
-            </ul>
-        </div>
-    </section>
-
-
-<footer>
-    <div class="footer-content">
-        <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
-        <div class="social-media">
-            <a href="https://facebook.com/yourprofile" target="_blank">
-                <img src="path/to/facebook-logo.png" alt="Facebook" class="social-icon">
-            </a>
-            <a href="https://twitter.com/yourprofile" target="_blank">
-                <img src="path/to/twitter-logo.png" alt="Twitter" class="social-icon">
-            </a>
-            <a href="https://instagram.com/yourprofile" target="_blank">
-                <img src="path/to/instagram-logo.png" alt="Instagram" class="social-icon">
-            </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">
-                <img src="path/to/linkedin-logo.png" alt="LinkedIn" class="social-icon">
-            </a>
-        </div>
+      <section id="about-me" class="content-section">
+        <div class="about-container">
+          <div class="about-image">
+            <img src="IMG/me.jpg" alt="About Me" />
+          </div>
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hello! I am Muhammad Dini Zuhri, a passionate student of New Media Communication and Contentpreneurship at UiTM Alor Gajah. I'm keen on creating meaningful digital content and exploring innovative ways to connect with audiences.</p>
+            <p>I'm skilled in various media tools and technologies, and I love learning new techniques to push the boundaries of digital communication.</p>
+            <p>I'm also do freelance Photographer and also videographer since Highschool.</p>
+            <p>Primary School - SRIDU Langkawi (2011-2016)</p>
+              <p>Highschool - Maktab Mahmud Langkawi (2017-2021)</p>
+                <p>University - UiTM Alor Gajah (2023-2025)</p>
+            <!-- Resume & CV Button -->
+      <a href="https://drive.google.com/drive/folders/1kJhnVEAXuRC-RN1douH7WfOEtKq1oX_f?usp=sharing" class="resume-btn" target="_blank">Resume & CV</a>
     </div>
-</footer>
+  </div>
+</section>
+      
 
+        <section id="skill" class="content-section">
+            <h2>My Skills</h2>
+            <p>Here are the skills I’ve mastered during my journey.</p>
+        </section>
+
+        <section class="software-skills">
+          <div class="bento">
+            <img src="IMG/premiere_logo.png.png" alt="Premiere Pro" class="software-image">
+            <h3>Premiere Pro</h3>
+            <p class="description">Video editing software with advanced features for film production.</p>
+            <div class="rating">
+              <label>Rating:</label>
+              <input type="range" min="0" max="100" value="85" class="rating-bar" disabled>
+            </div>
+          </div>
+        
+          <div class="bento">
+            <img src="IMG/Aftereffect_logo.png" alt="After Effects" class="software-image">
+            <h3>After Effects</h3>
+            <p class="description">Motion graphics and visual effects software for creating cinematic animations.</p>
+            <div class="rating">
+              <label>Rating:</label>
+              <input type="range" min="0" max="100" value="75" class="rating-bar" disabled>
+            </div>
+          </div>
+        
+          <div class="bento">
+            <img src="IMG/Illustrator_logo.png" alt="Adobe Illustrator" class="software-image">
+            <h3>Adobe Illustrator</h3>
+            <p class="description">Vector graphics editor used for designing logos, illustrations, and icons.</p>
+            <div class="rating">
+              <label>Rating:</label>
+              <input type="range" min="0" max="100" value="90" class="rating-bar" disabled>
+            </div>
+          </div>
+        
+          <div class="bento">
+            <img src="IMG/Photoshop logo.png" alt="Photoshop" class="software-image">
+            <h3>Photoshop</h3>
+            <p class="description">Industry-standard software for photo editing, graphic design, and digital art.</p>
+            <div class="rating">
+              <label>Rating:</label>
+              <input type="range" min="0" max="100" value="80" class="rating-bar" disabled>
+            </div>
+          </div>
+        </section>
+        
+
+
+
+        <div id="artwork">
+          <h2>My Artwork</h2>
+          <div class="artwork-container">
+            <!-- First Row -->
+            <div class="artwork-item">
+              <video controls>
+                <source src="MEDAN CINEMATIC.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Travel</p>
+            </div>
+            <div class="artwork-item">
+              <video controls>
+                <source src="IMG/HAFIQUE.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Product Shoot</p>
+            </div>
+            <div class="artwork-item">
+              <video controls>
+                <source src="MG/FP.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Motion Graphic for Bohor Cafe</p>
+            </div>
+            <!-- Second Row -->
+            <div class="artwork-item">
+              <video controls>
+                <source src="TUBA.MOV" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Project with National Art Gallery</p>
+            </div>
+            <div class="artwork-item">
+              <video controls>
+                <source src="MG/Bohor.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Motion Graphic for Bohor Cafe</p>
+            </div>
+            <div class="artwork-item">
+              <video controls>
+                <source src="MG/Balai seni.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <p class="artwork-description">Project with National Art Gallery Langkawi</p>
+            </div>
+          </div>
+        </div>
+        
+            <!-- Bento Image Gallery -->
+            <div class="bento-gallery">
+              <div class="bento-item" onclick="previewImage('image1.jpg')">
+                <img src="IMG/INSTEA1.jpg" alt="Bento Image 1">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image2.jpg')">
+                <img src="IMG/INSTEA2.jpg" alt="Bento Image 2">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image3.jpg')">
+                <img src="IMG/INSTEA3.jpg" alt="Bento Image 3">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+        
+              <div class="bento-item" onclick="previewImage('image4.jpg')">
+                <img src="IMG/PRIMARY OYEN.png" alt="Bento Image 4">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image5.jpg')">
+                <img src="IMG/SECONDARY OYEN.png" alt="Bento Image 5">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image6.jpg')">
+                <img src="IMG/PRIMARY OYEN 2.png" alt="Bento Image 6">
+                <p class="artwork-description">Shoot for Instea Langkawi</p>
+              </div>
+        
+              <div class="bento-item" onclick="previewImage('image7.jpg')">
+                <img src="img/DSC07785.jpg" alt="Bento Image 7">
+                <p class="artwork-description">Induction Day Masscomm</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image8.jpg')">
+                <img src="IMG/DSC07847.jpg" alt="Bento Image 8">
+                <p class="artwork-description">Induction Day Masscomm</p>
+              </div>
+              <div class="bento-item" onclick="previewImage('image9.jpg')">
+                <img src="IMG/DSC07796.jpg" alt="Bento Image 9">
+                <p class="artwork-description">Induction Day Masscomm</p>
+              </div>
+            </div>
+        
+            <!-- Image Preview Modal -->
+            <div id="image-preview-modal" class="image-preview-modal">
+              <span id="close-preview" class="close-preview">&times;</span>
+              <img id="preview-img" src="" alt="Preview">
+            </div>
+          </div>
+        </section>
+        
+        
+        
+        <footer id="Footer">
+          <h2>Contact Me</h2>
+          <div class="Contact">
+            <p>Feel free to reach out to me through any of the platforms below:</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/neurospxce/" target="_blank" class="social-icon instagram">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+              </a>
+              <a href="https://www.tiktok.com/@neurospace" target="_blank" class="social-icon tiktok">
+                <img src="IMG/transparent-tiktok-logo-letter-t-silhouette-black-and-white-o-black-and-white-silhouette-of-letter-1710878265159.webp" alt="TikTok">
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" class="social-icon linkedin">
+                <img src="IMG/circle-linkedin-512.webp" alt="LinkedIn">
+              </a>
+            </div>
+            <p>Or send me an email at:</p>
+            <a href="steelmax720@gmail.com" class="email-link">steelmax720@gmail.com</a>
+          </div>
+        </footer>
+        
+      
+
+    </a>
+  </div>
+</section>
+
+
+        
+        
+
+  
+
+ 
+        
+        
+      
+
+
+
+</body>
+</html>
