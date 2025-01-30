@@ -636,3 +636,84 @@ p {
 html {
   scroll-behavior: smooth;
 }
+
+/* Base Mobile Layout */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px; /* Add some padding for smaller screens */
+  }
+
+  /* Hero Section */
+  #hero {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+
+  #hero img {
+    width: 80%; /* Reduce image size for mobile */
+    margin: 0 auto;
+  }
+
+  #hero .hero-text {
+    margin-top: 20px;
+  }
+
+  /* Navigation */
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 10px 0; /* Add spacing between links */
+  }
+
+  /* About Section */
+  #about {
+    flex-direction: column; /* Stack image and text */
+    text-align: center;
+  }
+
+  #about img {
+    width: 60%; /* Reduce image size */
+    margin: 0 auto;
+  }
+
+  #about .about-text {
+    margin-top: 20px;
+  }
+
+  /* Education Section */
+  #education .education-container {
+    flex-direction: column;
+    margin: 10px auto; /* Center items */
+  }
+
+  #education .education-container img {
+    width: 50%; /* Adjust logo size */
+    margin: 0 auto;
+  }
+
+  /* Artwork Section */
+  #artwork .bento {
+    grid-template-columns: repeat(2, 1fr); /* Reduce to 2 columns */
+    gap: 10px; /* Add spacing */
+  }
+
+  #artwork .bento img {
+    width: 100%; /* Make images responsive */
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Buttons */
+  button {
+    width: 80%; /* Full-width buttons */
+    margin: 10px auto;
+    font-size: 1rem;
+  }
+}

@@ -43,14 +43,28 @@ document.getElementById('close-preview').addEventListener('click', function() {
   modal.style.display = 'none'; // Hide the modal
 });
 
-document.querySelectorAll('.navbar a').forEach(anchor => {
-  anchor.addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
+document.addEventListener("DOMContentLoaded", () => {
+  // Select all navigation links
+  const navLinks = document.querySelectorAll("nav a");
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", event => {
+      event.preventDefault(); // Prevent default anchor behavior
+
+      const targetId = link.getAttribute("href").substring(1); // Get the target section ID
+      const targetSection = document.getElementById(targetId);
+
+      if (targetSection) {
+        // Smooth scroll to the target section
+        window.scrollTo({
+          top: targetSection.offsetTop,
+          behavior: "smooth",
+        });
+      }
     });
   });
 });
+
 
 
 
